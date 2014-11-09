@@ -11,6 +11,8 @@
 #include <sys/time.h>
 #include <time.h>
 
+#define MIN_REQ_TICK_PER_REPORT 25
+
 #define MIN(x,y) (((x) < (y)) ? (x) : (y))
 #define MAX(x,y) (((x) > (y)) ? (x) : (y))
 
