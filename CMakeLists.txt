@@ -19,4 +19,4 @@ enable_testing()
 FILE( GLOB_RECURSE PROJ_TESTS tests/*.c )
 
 install(TARGETS ${PROJ_NAME} DESTINATION lib/${PROJ_NAME})
-install(FILES include/${PROJ_NAME}/debug.h include/${PROJ_NAME}/util.h include/${PROJ_NAME}/stringalgo.h include/${PROJ_NAME}/darray.h DESTINATION include/${PROJ_NAME})
+install(FILES include/${PROJ_NAME}/debug.h include/${PROJ_NAME}/util.h include/${PROJ_NAME}/stringalgo.h include/${PROJ_NAME}/darray.h include/${PROJ_NAME}/hashmap.h DESTINATION include/${PROJ_NAME})
